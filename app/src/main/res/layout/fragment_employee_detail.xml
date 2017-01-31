@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rndroid.sqlite_ex2.EmployeeDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/edittextEmpName_empDetails"
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"/>
+    <EditText
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/edittextEmpSal_empDetails"
+        android:hint="Enter Sallary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/edittextEmpDept_empDetails"
+        android:hint="Enter Department Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/buttonSubmit_empDetails"
+        android:hint="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/buttonEditName_empDetails"
+        android:hint="Edit Name of Employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/buttonEditSal_empDetails"
+        android:hint="Edit Salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

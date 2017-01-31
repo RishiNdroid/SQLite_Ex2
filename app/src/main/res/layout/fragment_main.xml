@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rndroid.sqlite_ex2.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="50dp"
+        android:text="Chosse an Operation" />
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/buttonStudDetail"
+        android:text="Student Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/buttonDeptDetail"
+        android:text="Department Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.rndroid.sqlite_ex2.UpdateSallaryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Employee Sallary"
+         android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#8FF501FF"/>
+
+    <EditText
+        android:id="@+id/edittext_empName_updateSal"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:hint="Enter Employee name"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edittext_empDept_updateSal"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:hint="Enter Employee Department"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edittext_empNewSal_updateSal"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:hint="Enter New Sallary"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:backgroundTint="@color/colorAccent"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        android:id="@+id/button_saveNewSal_updateSal"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:hint="Submit"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
